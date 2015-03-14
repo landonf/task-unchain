@@ -17,7 +17,7 @@ entitlements -- including the MapKit entitlement -- that aren't available withou
 entitlement-granting provisioning profile.
 
 These AppStore-only functionality constraints are enforced by the `/usr/libexec/taskgated` daemon; to
-work around it, task-unchain patches the taskpolicyd code, disabling all checks
+work around it, task-unchain patches the taskgated code, disabling all checks
 for restricted entitlements.
 
 ## Supported Systems and Warnings
